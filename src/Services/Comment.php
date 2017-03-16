@@ -1,6 +1,6 @@
 <?php
 
-namespace Packages\FbComment\Services;
+namespace Phambinh\FbComment\Services;
 
 class Comment
 {

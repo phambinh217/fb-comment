@@ -1,6 +1,6 @@
 <?php 
 
-namespace Packages\FbComment\Providers;
+namespace Phambinh\FbComment\Providers;
 
 use Illuminate\Support\Facades\Route;
 use App\Providers\RouteServiceProvider as ServiceProvider;

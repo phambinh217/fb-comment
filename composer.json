@@ -1,8 +1,6 @@
 {
     "name": "phambinh/fb-comment",
     "description": "Phambinhcms facebook comment module",
-    "homefacebook comment": "https://github.com/phambinh217/fb-comment",
-    "license": "MIT",
     "authors": [
         {
             "name": "phambinh217",
@@ -15,5 +13,12 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "phambinhcms-module": {
+            "type": "module",
+            "alias": "fb-comment",
+            "name": "Facebook comment"
+        }
+    }
 }

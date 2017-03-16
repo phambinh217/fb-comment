@@ -7,7 +7,7 @@
  * @version: 1.0
  * @package: PackagesCMS
  */
-namespace Packages\FbComment\Providers;
+namespace Phambinh\FbComment\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -45,7 +45,7 @@ class ModuleServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        \Module::registerFromJsonFile('fb-comment', __DIR__ .'/../../module.json');
+        \Module::registerFromComposerJson(__DIR__.'/../..');
         $this->registerAdminMenu();
     }
 

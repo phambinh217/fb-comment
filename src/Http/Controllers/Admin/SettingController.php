@@ -1,6 +1,6 @@
 <?php
 
-namespace Packages\FbComment\Http\Controllers\Admin;
+namespace Phambinh\FbComment\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use AdminController;

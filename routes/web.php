@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * ModuleAlias: fb-comment
  * ModuleName: fb-comment
@@ -9,7 +9,7 @@
  * @package: PackagesCMS
  */
 
-Route::group(['module' => 'fb-comment', 'namespace' => 'Packages\FbComment\Http\Controllers\Admin', 'middleware' => ['web'], 'prefix' => 'admin/fb-comment'], function () {
+Route::group(['module' => 'fb-comment', 'namespace' => 'Phambinh\FbComment\Http\Controllers\Admin', 'middleware' => ['web'], 'prefix' => 'admin/fb-comment'], function () {
     Route::get('setting', 'SettingController@index')->name('admin.fb-comment.setting.index')->middleware('can:admin.fb-comment.setting');
     Route::put('setting/update', 'SettingController@update')->name('admin.fb-comment.setting.update')->middleware('can:admin.fb-comment.setting');
 });
